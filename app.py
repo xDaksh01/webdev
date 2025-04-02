@@ -1,6 +1,6 @@
-from flask import Flask, render_template, jsonify
+from flask import Flask, app, render_template, jsonify
 
-hackthonlul = Flask(__name__)
+app = Flask(__name__)
 
 JOBS = [
   {
