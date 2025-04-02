@@ -25,6 +25,13 @@
 
     <h2>About the website</h2>
     <p>Hello this is about the hackthaon we are doing dum dum </p> 
+    <h2 class="text-center mt-2 mb-4">Open Positions</h2>
+    <div>
+      {% for job in jobs %}
+        {% include 'jobitem.html' %}
+      {% endfor %}
+    </div>
+    
     <button> click me loser</button>
   </body>
 </html>
